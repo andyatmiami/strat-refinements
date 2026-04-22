@@ -1,5 +1,4 @@
 ## Strategy
-
 **Components**: odh-dashboard, kubeflow (notebook controller), notebooks, model-metadata-collection, Jupyter extension (new)
 
 ### Technical Approach
@@ -157,15 +156,3 @@ The RFE assessment noted architecture review is still pending, and the automatio
 - High level architecture plan: [Google Doc referenced in assessment](https://docs.google.com/document/d/1uH6UQUbvchS9X1lhJ__uR5toRRHKSQ1AAWtLTJB0-Wg/edit?tab=t.2k8shl52b2yu)
 - Design doc: _To be created_
 - ADR: _To be created if needed_
-
-### Prerequisites & Process Gates
-
-| Prerequisite | Status | Notes |
-|-------------|--------|-------|
-| Architecture Review | _Pending human review_ | Assessment explicitly flagged as required; pending scheduling |
-| ODH/RHOAI Build Onboarding | _Pending human review_ | New Jupyter extension component needs Konflux build pipeline onboarding |
-| Licence Validation | _Pending human review_ | Jupyter extension dependencies need license review |
-| Accelerator/Package Support | _Pending human review_ | GPU not required on workbench; training jobs use existing accelerator support |
-| Documentation Support | _Pending human review_ | User-facing docs for Customize flow needed |
-| UXD Support | _Pending human review_ | Design review for Customize button, Jupyter extension UI |
-| Performance Team Support | _Pending human review_ | Workbench creation latency baseline and targets |
